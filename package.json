@@ -1,0 +1,23 @@
+{
+  "name": "guestbook-backend",
+  "description": "Back-end of the GuestBook application.",
+  "homepage": "https://github.com/aensoler/guestbook-backend",
+  "keywords": [
+    "guestbook",
+    "backend",
+    "server"
+  ],
+  "author": "David Soler <aensoler@gmail.com>",
+  "contributors": [],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/aensoler/guestbook-backend.git"
+  },
+  "main": "index.js",
+  "version": "1.0.0",
+  "dependencies": {
+    "body-parser": "^1.10.0",
+    "express": "^4.9.5",
+    "sqlite3": "^3.0.4"
+  }
+}
